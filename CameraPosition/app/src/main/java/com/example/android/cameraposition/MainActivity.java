@@ -20,21 +20,21 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
 
     static final CameraPosition JAMSHEDPUR = CameraPosition.builder()
             .target(new LatLng(22.8046,86.2029))
-            .zoom(21)
+            .zoom(18)
             .bearing(0)
             .tilt(45)
             .build();
 
     static final CameraPosition KOLKATA = CameraPosition.builder()
             .target(new LatLng(22.5726,88.3639))
-            .zoom(21)
+            .zoom(18)
             .bearing(0)
             .tilt(45)
             .build();
 
     static final CameraPosition PATNA = CameraPosition.builder()
             .target(new LatLng(25.5941,85.1376))
-            .zoom(21)
+            .zoom(18)
             .bearing(0)
             .tilt(45)
             .build();
